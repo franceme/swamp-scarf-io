@@ -4,7 +4,7 @@
   <groupId>org.continuousassurance</groupId>
   <artifactId>scarf-io</artifactId>
   <packaging>jar</packaging>
-  <version>1.2.1</version>
+  <version>1.2.2</version>
   <name>scarf-io</name>
 
   <properties>
@@ -26,6 +26,12 @@
       <artifactId>slf4j-simple</artifactId>
       <version>1.7.25</version>
     </dependency>
+      <dependency>
+          <groupId>junit</groupId>
+          <artifactId>junit</artifactId>
+          <version>RELEASE</version>
+          <scope>test</scope>
+      </dependency>
   </dependencies>
   <build>
     <plugins>
